@@ -1,7 +1,7 @@
 local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/CodeGaming2/kavouixcg/main/ctto"))()
 local window = kavoUi.CreateLib("My Restaurant","GreenTheme")
 
-local Tab1 = window:NewTab("Toggle")
+local Tab1 = window:NewTab("GAMES")
 local Tab1Section = Tab1:NewSection("CREDITS TO CodeGaming🇵🇭")
 
 Tab1Section:NewButton("1. Player INSTANT Cook","Player INSTANT Cook",function()

@@ -1,8 +1,8 @@
 local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/CodeGaming2/kavouixcg/main/ctto"))()
-local window = kavoUi.CreateLib("My Restaurant","GreenTheme")
+local window = kavoUi.CreateLib("CodeGaming Hub","GreenTheme")
 
-local Tab1 = window:NewTab("GAMES")
-local Tab1Section = Tab1:NewSection("CREDITS TO CodeGaming🇵🇭")
+local Tab1 = window:NewTab("My Restaurant")
+local Tab1Section = Tab1:NewSection("CREDITS To CodeGaming🇵🇭")
 
 Tab1Section:NewButton("1. Player INSTANT Cook","Player INSTANT Cook",function()
     local Cooking = game.Players.LocalPlayer.PlayerScripts.CookingNew
@@ -62,20 +62,6 @@ local Connection,Code = descendant.on_add(Tycoon.Items.OftenFiltered.Surface,fun
 end)
 end)
 
-Tab1Section:NewButton("3. Auto Seat","Auto Seat",function()
-    local npcSeat = true
-
-local Client = game.Players.LocalPlayer
-local PS = Client.PlayerScripts
-local Module = require(PS.ClientMain.Replications.Workers.WalkDummy)
-
-if npcSeat then
-   hookfunction(Module,function()
-       return task.wait()
-   end)
-end
-end)
-
 Tab1Section:NewButton("4. Auto Cook & Reach","Auto Cook & Reach",function()
 local chiefInstantCook = true
 local npcReach = true
@@ -102,5 +88,19 @@ if chiefInstantCook then
       end
       return
    end
+end
+end)
+
+Tab1Section:NewButton("4. Auto Seat","Auto Seat",function()
+    local npcSeat = true
+
+local Client = game.Players.LocalPlayer
+local PS = Client.PlayerScripts
+local Module = require(PS.ClientMain.Replications.Workers.WalkDummy)
+
+if npcSeat then
+   hookfunction(Module,function()
+       return task.wait()
+   end)
 end
 end)

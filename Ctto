@@ -62,7 +62,7 @@ local Connection,Code = descendant.on_add(Tycoon.Items.OftenFiltered.Surface,fun
 end)
 end)
 
-Tab1Section:NewButton("4. Auto Cook & Reach","Auto Cook & Reach",function()
+Tab1Section:NewButton("3. Auto Cook & Reach","Auto Cook & Reach",function()
 local chiefInstantCook = true
 local npcReach = true
 

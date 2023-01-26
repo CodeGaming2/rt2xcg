@@ -1,4 +1,4 @@
-local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/CodeGaming2/kavouixcg/main/ctto"))()
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/CodeGaming2/kvxcg/main/ctto"))()
 local window = kavoUi.CreateLib("CodeGaming Hub","GreenTheme")
 
 local Tab1 = window:NewTab("My Restaurant")
